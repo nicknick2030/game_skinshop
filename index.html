@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Codabrix GameShop</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img src="images/codabrix.png" alt="logo">
+                <a href="#">Фильмы</a>
+                <a href="#">Сериалы</a>
+                <a href="#">Игры</a>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="container__description">
+                <a class="description__link" href="#">
+                    <img src="images/arrow.png" class="description__link_arrow" alt="arrow">
+                    <span class="edition home">Коллекционное издание</span>
+                </a>
+                
+            </div>
+            <div class="game">
+                <div class="game__collection">
+                    <div class="game__image">
+                        <img src="images/spider.png">
+                    </div>
+                    <div class="game__description">
+                        <h2>Marvel Человек-Паук</h2>
+                        <p class="card__genre">Action, 2019</p>
+                        <p class="included">В комплект издания Marvel Человек-Паук Collector's Edition входит:</p>
+                        <ul>
+                            <li>металлический футляр для диска;</li>
+                            <li>художественный альбом (Мини-артбук);</li>
+                            <li>особый стикер (Наклейка белого паука);</li>
+                            <li>Фигурка Человека-Паука от Marvel, созданная Gentle Giant;</li>
+                            <li>Ключ, позволяющий загрузить дополнительные материалы</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <form action="https://formspree.io/f/mvolpjqa" method="post">
+                <h2>Доставка</h2>
+                <p>
+                    <label for="name">Имя</label> <br>
+                    <input type="text" id="name" name="userName" placeholder="Илья">
+                </p>
+                <p>
+                    <label for="lastname">Email</label> <br>
+                    <input type="email" id="lastname" name="userMail" placeholder="il.samara@mail.ru">
+                </p>
+                <p>
+                    <label for="phone">Телефон</label> <br>
+                    <input type="tel" id="phone" name="userPhone" placeholder="88005553535">
+                </p>
+                <input type="submit" class="order" value="Оформить заказ">
+            </form>
+          <div class="contacts">
+            <h3>Как нас найти</h3>
+            <p>Наш адресс: г.Самара , проспект Карла Макса, 201 Б</p>
+            <p>По всем вопроспм можно звонить по намеру телефона <a> href="88005553535"</a> </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1007.835855947814!2d50.18736772297063!3d53.213523452791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41661ea51e067bd5%3A0x5d11a4863424659e!2z0JHQuNC30L3QtdGBLdC60YDQtdC_0L7RgdGC0YwgItCR0JDQqNCd0K8i!5e1!3m2!1sru!2sru!4v1638624357237!5m2!1sru!2sru"
+             width="600" height="450" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
+        </div>
+
+
+        <img class="spider_on_the_wall" src="images/spider_on_the_wall.png">
+    </body>
+</html>
